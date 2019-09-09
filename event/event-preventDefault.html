@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>Please click on the checkbox control.</p>
+
+<form>
+    <label for="id-checkbox">Checkbox:</label>
+    <input type="checkbox" id="id-checkbox"/>
+</form>
+
+<div id="output-box"></div>
+<script>
+    // 选中复选框是点击复选框的默认行为。这个例子说明了怎样阻止默认行为的发生：
+    document.querySelector('#id-checkbox').addEventListener('click', function (event) {
+        document.getElementById('output-box').innerHTML += 'Sorry! <code>preventDefault()</code> won\'t let you check this!<br>'
+        event.preventDefault()
+    }, false)
+</script>
+</body>
+</html>
