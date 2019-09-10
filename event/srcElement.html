@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button id="myBtn">event</button>
+    <script>
+        var btn = document.getElementById('myBtn');
+        btn.onclick = function (){
+            alert(window.event.srcElement === this);
+        }
+        btn.attachEvent('onclick',function(event){
+            alert(event.srcElement === this)
+            alert(this === window)
+        })
+    </script>
+</body>
+</html>

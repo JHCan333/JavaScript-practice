@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/bootStrap/css/bootstrap.css">
+    <script src="../static/js/jquery.js"></script>
+    <script src="../static/js/echarts.js"></script>
+    <script src="../static/bootStrap/js/bootstrap.js"></script>
+    <script src="js/calculate.js" type="application/javascript"></script>
+    <style>
+        .list {
+            width: 1000px;
+            word-break: break-all;
+        }
+
+        .detail p {
+            color: red;
+        }
+
+        .detail .form-group {
+            min-width: 400px;
+        }
+
+        .bar_chart {
+            width: 1400px;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+<h1>复利模拟网页</h1>
+<h3>
+    <ins>1.所需参数</ins>
+</h3>
+<div class="form-inline">
+    <div class="form-group">
+        <label for="moneyEveryMonth">每月存钱数 ：</label>
+        <input type="text" class="form-control" value="3000" id="moneyEveryMonth" onchange="toCalculateFuli()">
+    </div>
+    <div class="form-group">
+        <label for="time">年数：</label>
+        <input type="text" class="form-control" value="30" id="time" onchange="toCalculateFuli()">
+    </div>
+    <div class="form-group">
+        <label for="time">七日年化：</label>
+        <input type="text" class="form-control" value="2.5" id="fuliRate" onchange="toCalculateFuli()">%
+    </div>
+    <button class="btn btn-default" onclick="toCalculateFuli()">计算</button>
+</div>
+
+<h3>
+    <ins>2.计算结果</ins>
+</h3>
+<div class="form-horizontal col-sm-12 detail">
+    <div class="form-group col-sm-3">
+        <label class="col-sm-3 control-label">总金额：</label>
+        <div class="col-sm-4">
+            <p class="form-control-static" id="allMoney"></p>
+        </div>
+    </div>
+    <div class="form-group col-sm-3">
+        <label class="col-sm-3 control-label">本金：</label>
+        <div class="col-sm-4">
+            <p class="form-control-static" id="basicMoney"></p>
+        </div>
+    </div>
+</div>
+<div class="form-horizontal col-sm-12 detail">
+    <div class="form-group col-sm-3">
+        <label class="col-sm-3 control-label">收益：</label>
+        <div class="col-sm-4">
+            <p class="form-control-static" id="earnings"></p>
+        </div>
+    </div>
+    <div class="form-group col-sm-3">
+        <label class="col-sm-3 control-label">收益率：</label>
+        <div class="col-sm-4">
+            <p class="form-control-static" id="earningsRate"></p>
+        </div>
+    </div>
+</div>
+
+<h3>
+    <ins>3.每月收益列表</ins>
+</h3>
+<div id="moneyListChart" class="bar_chart"></div>
+<script>
+
+    // 根据现有值计算总收益
+    function toCalculateFuli () {
+        var moneyEveryMonth = document.getElementById('moneyEveryMonth').value
+        var time = document.getElementById('time').value
+        var fuliRate = document.getElementById('fuliRate').value
+        let {moneyList, incomeList, allMoney, basicMoney, earnings, earningsRate} = calculateFuli(moneyEveryMonth, time, fuliRate)
+        setBarChart('moneyListChart', moneyList, incomeList)
+        // document.getElementById('moneyList').innerText = JSON.stringify(moneyList)
+        document.getElementById('allMoney').innerText = allMoney
+        document.getElementById('basicMoney').innerText = basicMoney
+        document.getElementById('earnings').innerText = earnings
+        document.getElementById('earningsRate').innerText = earningsRate
+    }
+
+    // 设置柱状图
+    function setBarChart (id, moneyList, incomeList) {
+        var chart = echarts.init(document.getElementById(id))
+        var option = {
+            title: {
+                text: '各月复利到期本息总和'
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+            legend: {
+                data: ['本息合计', '收益列表']
+            },
+            xAxis: {
+                type: 'category',
+                data: moneyList.map((seg, idx) => idx + 1 + '')
+            },
+            yAxis: {},
+            series: [{
+                name: '本息合计',
+                type: 'bar',
+                barGap: '-100%',
+                zlevel: 3,
+                data: moneyList
+            }, {
+                name: '收益列表',
+                type: 'bar',
+                zlevel: 3,
+                data: incomeList
+            }, {
+                type: 'pie',
+                id: 'pie',
+                zlevel: 1,
+                radius: '20%',
+                label: {
+                    formatter: '{b}: {c} ({d}%)',
+                    position:'inner'
+                },
+                center: ['80%', '15%'],
+                data: [{
+                    name: '收益demo',
+                    value: 10
+                }, {
+                    name: '本金demo',
+                    value: 3000
+                }]
+            }, {
+                type: 'gauge',
+                id: 'gauge',
+                radius: '20%',
+                axisLine: {
+                    lineStyle: {
+                        width: 10
+                    }
+                },
+                axisTick: {
+                    length: 2
+                },
+                splitLine: {
+                    length: 4
+                },
+                pointer: {
+                    width: 4
+                },
+                center: ['65s%', '15%'],
+                detail: {
+                    formatter: '{value}%',
+                    fontSize:12
+                },
+                data: [{value: 50, name: '收益率'}]
+            }]
+        }
+        chart.setOption(option)
+        chart.on('mouseover', function (params) {
+            let dataIndex = params['dataIndex']
+            let incomeThisMonth = incomeList[dataIndex]
+            chart.setOption({
+                series: [{
+                    id: 'pie',
+                    data: [{
+                        name: '收益',
+                        value: incomeThisMonth
+                    }, {
+                        name: '本金',
+                        value: 3000
+                    }]
+                }, {
+                    id: 'gauge',
+                    data: [{value: (incomeThisMonth / 3000 * 100).toFixed(2), name: '收益率'}]
+                }]
+            })
+        })
+    }
+
+    // 设置柱状图
+    window.onload = toCalculateFuli
+</script>
+</body>
+</html>
