@@ -5,9 +5,10 @@
     <title>Title</title>
     <link rel="stylesheet" href="../static/bootStrap/css/bootstrap.css">
     <script src="../static/js/jquery.js"></script>
+    <script src="../static/js/utils.js"></script>
     <script src="../static/js/echarts.js"></script>
     <script src="../static/bootStrap/js/bootstrap.js"></script>
-    <script src="js/calculate.js" type="application/javascript"></script>
+    <script src="js/calculate.js?v=1" type="application/javascript"></script>
     <style>
         .list {
             width: 1000px;
@@ -82,9 +83,13 @@
 </div>
 
 <h3>
-    <ins>3.每月收益列表</ins>
+    <ins>3.每月收益展示图</ins>
 </h3>
 <div id="moneyListChart" class="bar_chart"></div>
+<h3>
+    <ins>4.当月总金额展示图</ins>
+</h3>
+<div id="currentMonryChart" class="bar_chart"></div>
 <script>
 
     // 根据现有值计算总收益
@@ -93,7 +98,8 @@
         var time = document.getElementById('time').value
         var fuliRate = document.getElementById('fuliRate').value
         let {moneyList, incomeList, allMoney, basicMoney, earnings, earningsRate} = calculateFuli(moneyEveryMonth, time, fuliRate)
-        setBarChart('moneyListChart', moneyList, incomeList)
+        setEachMonthChart('moneyListChart', moneyList, incomeList) // 设置【每月本金-收益明细】柱状图
+        setCurrentAllMoneyChart('currentMonryChart', moneyList, incomeList) // 设置【截止当月总金额展示图】折线图
         // document.getElementById('moneyList').innerText = JSON.stringify(moneyList)
         document.getElementById('allMoney').innerText = allMoney
         document.getElementById('basicMoney').innerText = basicMoney
@@ -101,12 +107,125 @@
         document.getElementById('earningsRate').innerText = earningsRate
     }
 
-    // 设置柱状图
-    function setBarChart (id, moneyList, incomeList) {
+    // 设置【截止当月总金额展示图】折线图
+    function setCurrentAllMoneyChart (id, moneyList, incomeList) {
+        incomeList = ([].concat(incomeList)).reverse()
+        var currentAllMoney = [] // 当前月以及之前的所有钱总和
+        var currentAllIncome = []// 当前月以及之前的所有收益总和
+        var currentMoney = 0, currentIncome = 0
+        moneyList.map((seg, idx) => {
+            currentMoney += +moneyList[idx]
+            currentIncome += +incomeList[idx]
+            currentAllMoney.push(currentMoney)
+            currentAllIncome.push(currentIncome)
+        })
+        var chart = echarts.init(document.getElementById(id))
+        var chartType = 'line'
+        var option = {
+            title: {
+                text: '截止当月总金额-总收益明细'
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+            legend: {
+                data: ['截止当月总金额', '截止当月总收益']
+            },
+            xAxis: {
+                type: 'category',
+                data: moneyList.map((seg, idx) => idx + 1 + '')
+            },
+            yAxis: {},
+            series: [{
+                name: '截止当月总金额',
+                type: chartType,
+                barGap: '-100%',
+                zlevel: 3,
+                data: currentAllMoney
+            }, {
+                name: '截止当月总收益',
+                type: chartType,
+                zlevel: 3,
+                data: currentAllIncome
+            }, {
+                type: 'bar',
+                zlevel: 3,
+                name:'总金额最大值',
+                itemStyle:{
+                    color:'transparent'
+                },
+                data: moneyList.map(() => currentMoney)
+            }, {
+                type: 'pie',
+                id: 'pie',
+                zlevel: 1,
+                radius: '20%',
+                label: {
+                    formatter: '{b}: {c} ({d}%)',
+                    position: 'inner'
+                },
+                center: ['20%', '25%'],
+                data: [{
+                    name: '收益demo',
+                    value: 10
+                }, {
+                    name: '本金demo',
+                    value: 3000
+                }]
+            }, {
+                type: 'gauge',
+                id: 'gauge',
+                radius: '20%',
+                axisLine: {
+                    lineStyle: {
+                        width: 10
+                    }
+                },
+                axisTick: {
+                    length: 2
+                },
+                splitLine: {
+                    length: 4
+                },
+                pointer: {
+                    width: 4
+                },
+                center: ['35%', '25%'],
+                detail: {
+                    formatter: '{value}%',
+                    fontSize: 12
+                },
+                data: [{value: 50, name: '收益率'}]
+            }]
+        }
+        chart.setOption(option)
+        chart.on('mouseover', function (params) {
+            let dataIndex = params['dataIndex']
+            let incomeBeforeThisMonth = currentAllIncome[dataIndex]
+            chart.setOption({
+                series: [{
+                    id: 'pie',
+                    data: [{
+                        name: '收益',
+                        value: incomeBeforeThisMonth
+                    }, {
+                        name: '本金',
+                        value: 3000 * (dataIndex + 1)
+                    }]
+                }, {
+                    id: 'gauge',
+                    data: [{value: (incomeBeforeThisMonth / (3000 * (dataIndex + 1)) * 100).toFixed(2), name: '收益率'}]
+                }]
+            })
+        })
+    }
+
+    // 设置【每月本金-收益明细】柱状图
+    function setEachMonthChart (id, moneyList, incomeList) {
         var chart = echarts.init(document.getElementById(id))
         var option = {
             title: {
-                text: '各月复利到期本息总和'
+                text: '各月本金-收益明细'
             },
             tooltip: {
                 trigger: 'axis'
@@ -137,7 +256,7 @@
                 radius: '20%',
                 label: {
                     formatter: '{b}: {c} ({d}%)',
-                    position:'inner'
+                    position: 'inner'
                 },
                 center: ['80%', '15%'],
                 data: [{
@@ -168,7 +287,7 @@
                 center: ['65s%', '15%'],
                 detail: {
                     formatter: '{value}%',
-                    fontSize:12
+                    fontSize: 12
                 },
                 data: [{value: 50, name: '收益率'}]
             }]
