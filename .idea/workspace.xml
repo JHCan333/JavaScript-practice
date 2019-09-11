@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be24ca39-6563-4b69-9ece-d00d69e4aff8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/money/fuli.html" beforeDir="false" afterPath="$PROJECT_DIR$/money/fuli.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,16 +34,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fuli.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="fuli.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/money/fuli.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="164" column="37" lean-forward="true" selection-start-line="164" selection-start-column="37" selection-end-line="164" selection-end-column="37" />
+            <state relative-caret-position="664">
+              <caret line="89" column="22" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -115,8 +114,8 @@
         <option value="$PROJECT_DIR$/event/srcElement.html" />
         <option value="$PROJECT_DIR$/test/menu.js" />
         <option value="$PROJECT_DIR$/money/js/calculate.js" />
-        <option value="$PROJECT_DIR$/money/fuli.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/money/fuli.html" />
       </list>
     </option>
   </component>
@@ -159,6 +158,11 @@
             <path>
               <item name="JavaScript-practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaScript-practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaScript-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScript-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="money" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -230,12 +234,12 @@
       <workItem from="1568091145013" duration="2120000" />
       <workItem from="1568098255496" duration="2654000" />
       <workItem from="1568117327640" duration="6762000" />
-      <workItem from="1568166975502" duration="5934000" />
+      <workItem from="1568166975502" duration="6230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19099000" />
+    <option name="totallyTimeSpent" value="19395000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -437,17 +441,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/money/fuli.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="164" column="37" lean-forward="true" selection-start-line="164" selection-start-column="37" selection-end-line="164" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/money/fuli.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="89" column="22" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
         </state>
       </provider>
     </entry>

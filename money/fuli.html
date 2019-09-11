@@ -83,11 +83,11 @@
 </div>
 
 <h3>
-    <ins>3.每月收益展示图</ins>
+    <ins>3.每月到期本金-收益展示图</ins>
 </h3>
 <div id="moneyListChart" class="bar_chart"></div>
 <h3>
-    <ins>4.当月总金额展示图</ins>
+    <ins>4.截止当月总金额-总收益展示图</ins>
 </h3>
 <div id="currentMonryChart" class="bar_chart"></div>
 <script>
@@ -225,7 +225,7 @@
         var chart = echarts.init(document.getElementById(id))
         var option = {
             title: {
-                text: '各月本金-收益明细'
+                text: '各月到期本金-收益明细'
             },
             tooltip: {
                 trigger: 'axis'
