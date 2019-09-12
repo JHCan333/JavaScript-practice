@@ -110,6 +110,7 @@
     // 设置【截止当月总金额展示图】折线图
     function setCurrentAllMoneyChart (id, moneyList, incomeList) {
         incomeList = ([].concat(incomeList)).reverse()
+        moneyList = ([].concat(moneyList)).reverse()
         var currentAllMoney = [] // 当前月以及之前的所有钱总和
         var currentAllIncome = []// 当前月以及之前的所有收益总和
         var currentMoney = 0, currentIncome = 0
