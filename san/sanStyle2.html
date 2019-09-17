@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>向san请求建议</title>
+		<script src="https://unpkg.com/san@latest"></script>
+	</head>
+
+	<body>
+		<style>
+			.testStyle {
+				border: 1px solid red;
+				width:200px;
+				height:200px;
+				position:absolute;
+			}
+		</style>
+		<script>
+			// 嗯嗯，那可不可以帮忙给一个建议，是这样，我现在在编写一个基于 San 框架的UI库，目前在编写 Select 组件的 tranfer 功能，
+			// 此功能是将位于 Select 中的 Drop 组件加载到body中，用以消除 一些样式的干扰，比如 overflow。
+			// 下面是我更新过后的一个 Demo。
+			// 其中 goTransfer 指代 transfer 公共方法（此处只写了修改绝对定位），不仅仅 作用于 Select 中的 Drop 组件。
+			// changeDisplay 指代 业务逻辑中 出现的 可能对 Drop 组件的 Style 产生影响的多种可能操作，不局限于 display。
+			// 所以通过修改 Drop 的styles的方法可能行不通，因为不同的组件（包括 Drop 但不限于 Drop ），可能不都叫做 styles。
+			// 当我 执行 goTransfer 操作后，执行其他操作时，可能会触发 changeDisplay 之类影响 Drop 的 Style 的行为。
+			// 进而影响自己的 goTransfer 的结果。而 style 的改变，我也不好检测到，所以重复执行 goTransfer 可能不太现实。
+			// 能不能根据我这个情况给个建议啊，现在有点不知道怎么处理比较好，拜托了~
+			
+			// 这是一个公共的组件，需要进行 transfer 操作，改变组件的绝对定位。内部有一个和 style 绑定的 computed：styles
+			var DropDom = san.defineComponent({
+				template: '<div class="testStyle"  style="{{styles}}"></div>',
+				initData: function() {
+					return {
+						display:'block'
+					}
+				},
+				computed:{
+					styles(){
+						var display = this.data.get('display')
+						return 'display:' + display
+					}
+				}
+			});
+			// DropDom 组件的应用位置，changeDisplay 修改 display 的属性，模拟 select 的打开关闭；
+			// goTransfer 模拟将 DropDom 执行 transfer 操作，修改绝对定位。
+			// changeDisplay 代表 相关 DropDom 的style的一系列操作
+			// goTransfer 代表 tranfer 的公共方法。可以用于除了 DropDom 之外的组件的 transfer 操作
+			var MyComponent = san.defineComponent({
+				template: '<div>'
+				+ '<ui-need  display="{{display}}" s-ref="testDiv"></ui-need>'
+				+ '<div style="position:absolute;left:400px;">'
+				+'<button on-click="changeDisplay">changeDisplay</button>'
+				+'<button on-click="goTransfer">goTransfer</button>'
+				+'</div>'
+				+ '</div>',
+				initData: function() {
+					return {
+						display:'block'
+					}
+				},
+				components: {
+			        'ui-need': DropDom
+			    },
+				changeDisplay(){
+					var display = this.data.get('display') === 'block' ? 'none' :'block'
+					this.data.set('display',display)
+				},
+				goTransfer(){
+					this.ref('testDiv').el.style.top = "300px"
+				}
+			})
+
+			var myComponent = new MyComponent();
+
+			myComponent.attach(document.body);
+		</script>
+	</body>
+
+</html>

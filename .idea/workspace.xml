@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be24ca39-6563-4b69-9ece-d00d69e4aff8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/html/absolute.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/input.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/money/compoundInterestWithSimpleInterest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/san/computedRef.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/san/getBoundingClientRect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/san/js/json2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/san/js/san.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/san/ref.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/san/sanCss.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/san/sanSlot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/san/sanStyle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/san/sanStyle2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/san/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/debounceAndThrottle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JavaScript-practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/javascript_practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/money/fuli.html" beforeDir="false" afterPath="$PROJECT_DIR$/money/fuli.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/money/fuli.html" beforeDir="false" afterPath="$PROJECT_DIR$/money/compoundInterest.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,65 +33,90 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="event-preventDefault.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/event/event-preventDefault.html">
+      <file leaf-file-name="getBoundingClientRect.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/san/getBoundingClientRect.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="60">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="srcElement.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/event/srcElement.html">
+      <file leaf-file-name="ref.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/san/ref.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sanCss.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/san/sanCss.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="computedRef.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/san/computedRef.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="absolute.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/absolute.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="13" selection-start-line="7" selection-start-column="4" selection-end-line="17" selection-end-column="13" />
+              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fuli.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/money/fuli.html">
+      <file leaf-file-name="template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/san/template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+            <state relative-caret-position="255">
+              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="sanSlot.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/san/sanSlot.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            <state relative-caret-position="60">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/utils.js">
+      <file leaf-file-name="sanStyle.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/san/sanStyle.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="60">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/menu.js">
+      <file leaf-file-name="sanStyle2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/san/sanStyle2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2265">
-              <caret line="151" column="25" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calculate.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/money/js/calculate.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="92" lean-forward="true" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
+            <state relative-caret-position="60">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,8 +126,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -117,6 +158,21 @@
         <option value="$PROJECT_DIR$/money/js/calculate.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/money/fuli.html" />
+        <option value="$PROJECT_DIR$/money/compoundInterestWithFixedTimeDeposit.html" />
+        <option value="$PROJECT_DIR$/money/compoundInterestWithSimpleInterest.html" />
+        <option value="$PROJECT_DIR$/money/compoundInterest.html" />
+        <option value="$PROJECT_DIR$/money/compoundInterestWithSimpleInterest.html" />
+        <option value="$PROJECT_DIR$/scene/debounceAndThrottle.html" />
+        <option value="$PROJECT_DIR$/html/input.html" />
+        <option value="$PROJECT_DIR$/san/getBoundingClientRect.html" />
+        <option value="$PROJECT_DIR$/san/ref.html" />
+        <option value="$PROJECT_DIR$/san/sanStyle.html" />
+        <option value="$PROJECT_DIR$/san/sanSlot.html" />
+        <option value="$PROJECT_DIR$/san/sanStyle2.html" />
+        <option value="$PROJECT_DIR$/san/sanCss.html" />
+        <option value="$PROJECT_DIR$/san/template.html" />
+        <option value="$PROJECT_DIR$/html/absolute.html" />
+        <option value="$PROJECT_DIR$/san/computedRef.html" />
       </list>
     </option>
   </component>
@@ -140,9 +196,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="26" />
     <option name="y" value="23" />
-    <option name="width" value="1680" />
+    <option name="width" value="1673" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -153,23 +210,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="JavaScript-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaScript-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javascript_practice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaScript-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaScript-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="money" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javascript_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javascript_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javascript_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="san" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,6 +251,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/san" />
       <recent name="$PROJECT_DIR$/static/js" />
       <recent name="$PROJECT_DIR$/static" />
     </key>
@@ -205,17 +268,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.fuli.html">
-    <configuration name="event-preventDefault.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScript-practice/event/event-preventDefault.html" />
-    <configuration name="fuli.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScript-practice/money/fuli.html" />
+  <component name="RunManager" selected="JavaScript Debug.computedRef.html">
+    <configuration name="absolute.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/html/absolute.html" />
+    <configuration name="compoundInterest.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/money/compoundInterest.html" />
+    <configuration name="computedRef.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/san/computedRef.html" />
+    <configuration name="debounceAndThrottle.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/scene/debounceAndThrottle.html" />
+    <configuration name="input.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/html/input.html" />
     <list>
-      <item itemvalue="JavaScript Debug.event-preventDefault.html" />
-      <item itemvalue="JavaScript Debug.fuli.html" />
+      <item itemvalue="JavaScript Debug.compoundInterest.html (1)" />
+      <item itemvalue="JavaScript Debug.debounceAndThrottle.html" />
+      <item itemvalue="JavaScript Debug.input.html" />
+      <item itemvalue="JavaScript Debug.absolute.html" />
+      <item itemvalue="JavaScript Debug.computedRef.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.fuli.html" />
-        <item itemvalue="JavaScript Debug.event-preventDefault.html" />
+        <item itemvalue="JavaScript Debug.computedRef.html" />
+        <item itemvalue="JavaScript Debug.absolute.html" />
+        <item itemvalue="JavaScript Debug.input.html" />
+        <item itemvalue="JavaScript Debug.debounceAndThrottle.html" />
+        <item itemvalue="JavaScript Debug.compoundInterest.html (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -236,15 +308,17 @@
       <workItem from="1568098255496" duration="2654000" />
       <workItem from="1568117327640" duration="6762000" />
       <workItem from="1568166975502" duration="6803000" />
-      <workItem from="1568250651768" duration="1337000" />
+      <workItem from="1568250651768" duration="3478000" />
+      <workItem from="1568616593982" duration="5621000" />
+      <workItem from="1568681339472" duration="2846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21305000" />
+    <option name="totallyTimeSpent" value="31913000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
@@ -273,6 +347,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2265">
+          <caret line="151" column="25" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/money/js/calculate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="92" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/money/compoundInterestWithSimpleInterest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/event/event-preventDefault.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -315,7 +410,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/money/fuli.html">
+    <entry file="file://$PROJECT_DIR$/money/compoundInterest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1335">
           <caret line="89" column="22" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
@@ -350,7 +445,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/money/fuli.html">
+    <entry file="file://$PROJECT_DIR$/money/compoundInterest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
@@ -371,7 +466,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/money/fuli.html">
+    <entry file="file://$PROJECT_DIR$/money/compoundInterest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
@@ -406,7 +501,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/money/fuli.html">
+    <entry file="file://$PROJECT_DIR$/money/compoundInterest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
@@ -495,14 +590,108 @@
     <entry file="file://$PROJECT_DIR$/money/js/calculate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="92" lean-forward="true" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
+          <caret line="18" column="92" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/money/fuli.html">
+    <entry file="file://$PROJECT_DIR$/money/compoundInterestWithSimpleInterest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        <state relative-caret-position="60">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scene/debounceAndThrottle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="64" selection-start-line="31" selection-start-column="4" selection-end-line="50" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/input.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/san/js/san.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/money/compoundInterest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/san/getBoundingClientRect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/san/ref.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/san/sanSlot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/san/sanStyle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/san/sanStyle2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/san/sanCss.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/san/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/absolute.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/san/computedRef.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
         </state>
       </provider>
     </entry>

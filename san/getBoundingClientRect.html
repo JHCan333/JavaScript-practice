@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html> 
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=8" > 
+		<title>当前元素到浏览器可视区域的边界距离</title>
+		<script type="text/javascript" src="js/json2.js" ></script>
+		<style>
+			.parents{
+				width:200px;
+				height:200px;
+				position: relative;
+				border:1px solid #000;
+			}
+			.child{
+				width:100px;
+				height:100px;
+				position: absolute;
+				left:50px;
+				top:50px;
+				border:1px solid red;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="parents">
+			<div class="child" id="child" style="background: red;"></div>
+		</div>
+		<button onclick="_getBoundingClientRect()">_getBoundingClientRect</button>
+		<script>
+			function _getBoundingClientRect(){
+				var chl = document.getElementById('child');
+				var res = chl.getBoundingClientRect();
+//				console.log('res',res)
+				chl.innerText = JSON.stringify(res);
+//				chl.innerText = res;
+				var styleA = chl.style;
+				console.log('styleA',styleA )
+				var CssValue = chl.style.getPropertyCSSValue('background')
+				var PValue = chl.style.getPropertyValue('background')
+				console.log('CssValue',CssValue)
+				console.log('PValue',PValue)
+			}
+		</script>
+	</body>
+</html>

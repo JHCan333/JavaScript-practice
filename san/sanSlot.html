@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>slot试验</title>
+		<script src="js/san.js"></script>
+	</head>
+
+	<body>
+		<style>
+			.disabledInput {
+				border: 1px solid red
+			}
+		</style>
+		<script>
+			var Panel = san.defineComponent({
+				template: '<div><slot name="title"/></div>',
+				attached: function() {
+					// 0
+					var lth = this.slot('title')
+					console.log('lth2',lth)
+				}
+			});
+
+			var MyComponent = san.defineComponent({
+				components: {
+					'x-panel': Panel
+				},
+
+				template: '' +
+					'<div>' +
+					'<x-panel  s-ref="panel">' +
+					'<b slot="title">{{name}}</b>' +
+					'</x-panel>' +
+					'</div>',
+
+				attached: function() {
+					// 0
+					var lth = this.ref('panel').slot('title')
+					console.log('lth',lth)
+					var slot = this.ref('panel').slot
+					console.log('slot',slot)
+				}
+			});
+
+			var myComponent = new MyComponent({
+				data: {
+					folderHidden: true,
+					desc: 'MVVM component framework',
+					name: 'San'
+				}
+			});
+
+			myComponent.attach(document.body);
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>和san沟通</title>
+		<script src="https://unpkg.com/san@latest"></script>
+	</head>
+
+	<body>
+		<style>
+			.testStyle {
+				border: 1px solid red;
+				width:200px;
+				height:200px;
+			}
+		</style>
+		<script>
+			// 在实际开发中，修改dom的style的时候，可能不会只使用 changeStyleBySan 的处理方式，
+			// 而是 changeStyleByJs 和 changeStyleBySan 两种形式都使用。
+			// 这样就会出现一种情况，当我使用 changeStyleByJs 操作完成后，
+			// 若因为 一些数据的变化，导致触发了 changeStyleBySan ，
+			// 那么 changeStyleByJs 的修改结果就会消失。
+			// 能不能在框架内部兼容一下？不然在实际应用中写的话，会比较麻烦
+			var MyComponent = san.defineComponent({
+				template: '<div>'
+				+ '<div class="testStyle" style="{{styles}}" s-ref="testDiv"></div>'
+				+'<button on-click="changeStyleBySan">changeStyleBySan</button>'
+				+'<button on-click="changeStyleByJs">changeStyleByJs</button>'
+				+ '</div>',
+				initData: function() {
+					return {
+						inputClass: [],
+						value: '',
+						styles:''
+					}
+				},
+				// 通过san的方法来修改style。
+				changeStyleBySan(){
+					var styles = 'background:#000;' 
+					this.data.set('styles',styles,{force:true})
+				},
+				// 通过js的方法来修改style。
+				changeStyleByJs(){
+					this.ref('testDiv').style.width = "300px";
+					this.ref('testDiv').style.height = "300px";
+				}
+			})
+
+			var myComponent = new MyComponent();
+
+			myComponent.attach(document.body);
+		</script>
+	</body>
+
+</html>

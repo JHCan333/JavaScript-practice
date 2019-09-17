@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>因为san的版本导致的问题</title>
+		<script src="js/san.js"></script>
+	</head>
+
+	<body>
+		<style>
+			.disabledInput {
+				border: 1px solid red
+			}
+		</style>
+		<script>
+			var MyComponent = san.defineComponent({
+				template: '<div>' +
+					'    <input class="{{ inputClass }}" value="{= value =}"/>' +
+					'    <button on-click="setValue">setValue</button>' +
+					'    <button on-click="setClass">setClass</button>' +
+					'    <button on-click="changeInput">changeInput</button>' +
+					'    <button on-click="clearInput">clearInput</button>' +
+					'    <button on-click="changeInputAsync">changeInputAsync</button>' +
+					'    <button on-click="clearInputAsync">clearInputAsync</button>' +
+					'</div>',
+				initData: function() {
+					return {
+						inputClass: [],
+						value: ''
+					}
+				},
+				// 设置input的value
+				setValue: function() {
+					this.data.set('value', 11111)
+				},
+				// 设置input的class
+				setClass: function() {
+					this.data.push('inputClass', 'disabledInput')
+				},
+				// 清空input的value
+				clearValue: function() {
+					this.data.set('value', '')
+				},
+				// 清空input的class
+				clearClass: function() {
+					this.data.set('inputClass', [])
+				},
+				// 同步改变input的value以及class，会出现bug，只更改背景色。可以调整这两行代码顺序试试
+				changeInput: function() {
+					this.setValue()
+					this.setClass()
+				},
+				// 同步清空input的value以及class，会出现bug，只更改背景色。可以调整这两行代码顺序试试
+				clearInput: function() {
+					this.clearValue()
+					this.clearClass()
+				},
+				// 异步改变input的value以及class，无bug
+				changeInputAsync: function() {
+					this.setValue()
+					var me = this;
+					this.nextTick(function() {
+						me.setClass()
+					})
+				},
+				// 异步清空input的value以及class，无bug
+				clearInputAsync: function() {
+					this.clearValue()
+					var me = this;
+					this.nextTick(function() {
+						me.clearClass()
+					})
+				}
+			})
+
+			var myComponent = new MyComponent();
+
+			myComponent.attach(document.body);
+		</script>
+	</body>
+
+</html>

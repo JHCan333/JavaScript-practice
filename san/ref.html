@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ref</title>
+    <script src="https://unpkg.com/san@latest"></script>
+</head>
+<body>
+	<script>
+		var MyComponent = san.defineComponent({
+			template: '<div s-ref="thisRef">aaa</div>',
+			initData: function() {
+				return {
+					value: ''
+				}
+			},
+			attached:function(){
+				var thisRef = this.ref('thisRef')
+				console.log('thisRef',thisRef)
+				var thisEl = this.el
+				console.log('thisEl',thisEl)
+			}
+		})
+
+		var myComponent = new MyComponent();
+
+		myComponent.attach(document.body);
+	</script>
+</body>
+</html>

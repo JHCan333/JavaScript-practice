@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>san代码模板</title>
+    <script src="https://unpkg.com/san@latest"></script>
+</head>
+
+<body>
+<style>
+    .testStyle {
+        border: 1px solid red;
+        width: 200px;
+        height: 200px;
+    }
+</style>
+<script>
+    var MyComponent = san.defineComponent({
+        template: '<div>template.html</div>',
+        initData: function () {
+            return {}
+        },
+        function1 () {},
+        function2 () {},
+        created () {},
+        attached () {},
+        updated () {},
+        filters: {
+            format1 () {
+                return ''
+            }
+        },
+        components: {},
+        computed: {
+            val2 () {
+                return ''
+            }
+        }
+    })
+
+    var myComponent = new MyComponent()
+
+    myComponent.attach(document.body)
+</script>
+</body>
+
+</html>

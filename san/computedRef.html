@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>测试computed中的ref</title>
+    <script src="https://unpkg.com/san@latest"></script>
+</head>
+
+<body>
+<script>
+    // 是这样，我需要在 computed 中通过 ref 获取 s-ref="test" 组件的信息，并将计算结果传递给 testAttr 测试属性。但是，却会报错 this.ref is not a function。
+    // 在computed 中不能获取 ref 么？
+    var MyComponent = san.defineComponent({
+        template: '<div s-ref="test" testAttr="{{getTestStyle}}">template.html</div>',
+        initData: function () {
+            return {}
+        },
+        computed: {
+            getTestStyle(){
+                let test = this.ref('test') || {}
+                console.log('test',test)
+                return ''
+            }
+        }
+    })
+
+    var myComponent = new MyComponent()
+
+    myComponent.attach(document.body)
+</script>
+</body>
+
+</html>
