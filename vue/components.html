@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue组件</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <style>
+        .box{
+            width:100px;
+            height:100px;
+        }
+    </style>
+</head>
+<body>
+<div id="app" class="box"></div>
+<div id="app2"  class="box"></div>
+<script>
+    // 类似于你要封装的table组件
+    var tableTool = {
+        template:"<div><div v-for='item in tableData'>{{item}}</div></div>",
+        props:{// 接收的参数 tableData
+            tableData:{
+                type:Array,
+                default:[1,2,3]
+            }
+        }
+    }
+    // 使用table 的场景A
+    var sceneA = new Vue({
+        el:'#app', // 渲染到 id = app上
+        components:{
+            'tableTool':tableTool // 将tableTool当做组件传递进来
+        },
+        data(){
+            return {
+                tableData:[2,3,4]
+            }
+        },
+        template:"<tableTool :tableData='tableData'></tableTool>" // 使用组件，并传递 参数 tableData
+    })
+
+    // 使用 table的场景B
+    var sceneB = new Vue({
+        el:'#app2', // 渲染到 id = app2 上
+        components:{
+            'tableTool':tableTool
+        },
+        data(){
+            return {
+                tableData:[3,4,5]
+            }
+        },
+        template:"<tableTool :tableData='tableData'></tableTool>"
+    })
+</script>
+</body>
+</html>
