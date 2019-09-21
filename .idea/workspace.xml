@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be24ca39-6563-4b69-9ece-d00d69e4aff8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/clock/clock.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/rightPaste.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/menu2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/menu3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/components.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gauge/gauge.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/event/rightPaste.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
-              <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -34,16 +30,25 @@
         <entry file="file://$PROJECT_DIR$/vue/components.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="840">
-              <caret line="56" column="6" lean-forward="true" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
+              <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="clock.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="clock.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clock/clock.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1591">
-              <caret line="238" column="14" lean-forward="true" selection-end-line="255" selection-end-column="7" />
+            <state relative-caret-position="383">
+              <caret line="211" column="23" lean-forward="true" selection-start-line="211" selection-end-line="212" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gauge.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gauge/gauge.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="24" lean-forward="true" selection-end-line="313" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -71,13 +76,29 @@
       <find>hourNeedle</find>
       <find>clockDot</find>
       <find>cssDotWrap</find>
-      <find>cssDot</find>
       <find>getWidth</find>
+      <find>getScaleValue</find>
+      <find>getValue</find>
+      <find>value</find>
+      <find>getGaugeRotate</find>
+      <find>100</find>
+      <find>cssGauge</find>
+      <find>style</find>
+      <find>gaugeTitle</find>
+      <find>cssDot</find>
+      <find>gaugeCircle</find>
+      <find>cssDotWrap2</find>
+      <find>beishu</find>
+      <find>innerScale</find>
+      <find>dotHeight2</find>
     </findStrings>
     <replaceStrings>
       <replace>toCalculateFuli</replace>
       <replace>setEachMonthChart</replace>
       <replace>scale</replace>
+      <replace>gauge-center</replace>
+      <replace>outerScale</replace>
+      <replace>innerScale</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -112,6 +133,8 @@
         <option value="$PROJECT_DIR$/event/rightPaste.html" />
         <option value="$PROJECT_DIR$/vue/components.html" />
         <option value="$PROJECT_DIR$/clock/clock.html" />
+        <option value="$PROJECT_DIR$/gauge.html" />
+        <option value="$PROJECT_DIR$/gauge/gauge.html" />
       </list>
     </option>
   </component>
@@ -135,7 +158,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="7" />
     <option name="y" value="23" />
     <option name="width" value="1673" />
@@ -160,7 +183,7 @@
             <path>
               <item name="javascript_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="javascript_practice" type="462c0819:PsiDirectoryNode" />
-              <item name="clock" type="462c0819:PsiDirectoryNode" />
+              <item name="gauge" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -184,6 +207,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gauge" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/san" />
       <recent name="$PROJECT_DIR$/static/js" />
@@ -202,26 +228,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.clock.html">
-    <configuration name="absolute.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/html/absolute.html" />
+  <component name="RunManager" selected="JavaScript Debug.gauge.html">
     <configuration name="clock.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/clock/clock.html" />
     <configuration name="components.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/vue/components.html" />
     <configuration name="computedRef.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/san/computedRef.html" />
+    <configuration name="gauge.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/gauge/gauge.html" />
     <configuration name="rightPaste.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/event/rightPaste.html" />
     <list>
-      <item itemvalue="JavaScript Debug.absolute.html" />
       <item itemvalue="JavaScript Debug.computedRef.html" />
       <item itemvalue="JavaScript Debug.rightPaste.html" />
       <item itemvalue="JavaScript Debug.components.html" />
       <item itemvalue="JavaScript Debug.clock.html" />
+      <item itemvalue="JavaScript Debug.gauge.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.gauge.html" />
         <item itemvalue="JavaScript Debug.clock.html" />
         <item itemvalue="JavaScript Debug.components.html" />
         <item itemvalue="JavaScript Debug.rightPaste.html" />
         <item itemvalue="JavaScript Debug.computedRef.html" />
-        <item itemvalue="JavaScript Debug.absolute.html" />
       </list>
     </recent_temporary>
   </component>
@@ -246,18 +272,22 @@
       <workItem from="1568616593982" duration="5621000" />
       <workItem from="1568681339472" duration="6339000" />
       <workItem from="1568721134083" duration="12000" />
-      <workItem from="1568773210381" duration="4717000" />
+      <workItem from="1568773210381" duration="6401000" />
+      <workItem from="1568855731724" duration="481000" />
+      <workItem from="1568883249888" duration="370000" />
+      <workItem from="1568900130374" duration="6000" />
+      <workItem from="1569057838865" duration="4416000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40135000" />
+    <option name="totallyTimeSpent" value="47092000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24894515" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24412297" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -283,13 +313,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/js/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/menu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2265">
@@ -599,14 +622,14 @@
     <entry file="file://$PROJECT_DIR$/event/rightPaste.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue/components.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
-          <caret line="56" column="6" lean-forward="true" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
+          <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -619,8 +642,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/clock/clock.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1591">
-          <caret line="238" column="14" lean-forward="true" selection-end-line="255" selection-end-column="7" />
+        <state relative-caret-position="383">
+          <caret line="211" column="23" lean-forward="true" selection-start-line="211" selection-end-line="212" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gauge/gauge.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="24" lean-forward="true" selection-end-line="313" selection-end-column="7" />
         </state>
       </provider>
     </entry>
