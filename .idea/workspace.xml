@@ -55,8 +55,8 @@
       <file leaf-file-name="pdf.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pdf/pdf.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="120">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -297,12 +297,12 @@
       <workItem from="1569057838865" duration="5711000" />
       <workItem from="1569204778688" duration="6664000" />
       <workItem from="1569246084577" duration="813000" />
-      <workItem from="1569387917187" duration="1043000" />
+      <workItem from="1569387917187" duration="1361000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56907000" />
+    <option name="totallyTimeSpent" value="57225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -670,8 +670,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pdf/pdf.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
