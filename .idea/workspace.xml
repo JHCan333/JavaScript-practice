@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be24ca39-6563-4b69-9ece-d00d69e4aff8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/getBoundingClientRect/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/050003521280_33380625.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdf.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gauge/gauge.html" beforeDir="false" afterPath="$PROJECT_DIR$/gauge/gauge.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,17 +40,35 @@
       <file leaf-file-name="clock.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clock/clock.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
+            <state relative-caret-position="3165">
               <caret line="211" column="23" lean-forward="true" selection-start-line="211" selection-end-line="212" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gauge.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getBoundingClientRect/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pdf.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pdf/pdf.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gauge.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gauge/gauge.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-205">
-              <caret line="136" column="20" lean-forward="true" selection-end-line="314" selection-end-column="7" />
+            <state relative-caret-position="2460">
+              <caret line="164" column="47" lean-forward="true" selection-end-line="314" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -135,6 +155,8 @@
         <option value="$PROJECT_DIR$/clock/clock.html" />
         <option value="$PROJECT_DIR$/gauge.html" />
         <option value="$PROJECT_DIR$/gauge/gauge.html" />
+        <option value="$PROJECT_DIR$/getBoundingClientRect/index.html" />
+        <option value="$PROJECT_DIR$/pdf/pdf.html" />
       </list>
     </option>
   </component>
@@ -158,11 +180,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="7" />
-    <option name="y" value="23" />
-    <option name="width" value="1673" />
-    <option name="height" value="1027" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -172,7 +192,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,12 +202,13 @@
             <path>
               <item name="javascript_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="javascript_practice" type="462c0819:PsiDirectoryNode" />
-              <item name="gauge" type="462c0819:PsiDirectoryNode" />
+              <item name="pdf" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,13 +227,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/gauge" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pdf" />
       <recent name="$PROJECT_DIR$/san" />
       <recent name="$PROJECT_DIR$/static/js" />
       <recent name="$PROJECT_DIR$/static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gauge" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -228,26 +249,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.gauge.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="clock.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/clock/clock.html" />
     <configuration name="components.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/vue/components.html" />
-    <configuration name="computedRef.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/san/computedRef.html" />
     <configuration name="gauge.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/gauge/gauge.html" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/getBoundingClientRect/index.html" />
     <configuration name="rightPaste.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/event/rightPaste.html" />
     <list>
-      <item itemvalue="JavaScript Debug.computedRef.html" />
       <item itemvalue="JavaScript Debug.rightPaste.html" />
       <item itemvalue="JavaScript Debug.components.html" />
       <item itemvalue="JavaScript Debug.clock.html" />
       <item itemvalue="JavaScript Debug.gauge.html" />
+      <item itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.gauge.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.clock.html" />
+        <item itemvalue="JavaScript Debug.gauge.html" />
         <item itemvalue="JavaScript Debug.components.html" />
         <item itemvalue="JavaScript Debug.rightPaste.html" />
-        <item itemvalue="JavaScript Debug.computedRef.html" />
       </list>
     </recent_temporary>
   </component>
@@ -276,18 +297,21 @@
       <workItem from="1568855731724" duration="481000" />
       <workItem from="1568883249888" duration="370000" />
       <workItem from="1568900130374" duration="6000" />
-      <workItem from="1569057838865" duration="4861000" />
+      <workItem from="1569057838865" duration="5711000" />
+      <workItem from="1569204778688" duration="6664000" />
+      <workItem from="1569246084577" duration="813000" />
+      <workItem from="1569387917187" duration="161000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47537000" />
+    <option name="totallyTimeSpent" value="56025000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24412297" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23930079" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -313,20 +337,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2265">
-          <caret line="151" column="25" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/money/js/calculate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/money/compoundInterest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1335">
@@ -640,17 +650,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gauge/gauge.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2460">
+          <caret line="164" column="47" lean-forward="true" selection-end-line="314" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/clock/clock.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
+        <state relative-caret-position="3165">
           <caret line="211" column="23" lean-forward="true" selection-start-line="211" selection-end-line="212" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gauge/gauge.html">
+    <entry file="file://$PROJECT_DIR$/getBoundingClientRect/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-205">
-          <caret line="136" column="20" lean-forward="true" selection-end-line="314" selection-end-column="7" />
+        <state relative-caret-position="105">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdf/pdf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
         </state>
       </provider>
     </entry>
