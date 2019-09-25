@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be24ca39-6563-4b69-9ece-d00d69e4aff8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/getBoundingClientRect/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf/050003521280_33380625.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf/pdf.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdf/pdf.html" beforeDir="false" afterPath="$PROJECT_DIR$/pdf/pdf.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/pdf/pdf.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+              <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -300,12 +297,12 @@
       <workItem from="1569057838865" duration="5711000" />
       <workItem from="1569204778688" duration="6664000" />
       <workItem from="1569246084577" duration="813000" />
-      <workItem from="1569387917187" duration="161000" />
+      <workItem from="1569387917187" duration="481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56025000" />
+    <option name="totallyTimeSpent" value="56345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -674,7 +671,7 @@
     <entry file="file://$PROJECT_DIR$/pdf/pdf.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
         </state>
       </provider>
     </entry>
