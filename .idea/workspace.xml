@@ -55,8 +55,8 @@
       <file leaf-file-name="pdf.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pdf/pdf.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -246,26 +246,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.pdf.html">
     <configuration name="clock.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/clock/clock.html" />
     <configuration name="components.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/vue/components.html" />
     <configuration name="gauge.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/gauge/gauge.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/getBoundingClientRect/index.html" />
-    <configuration name="rightPaste.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/event/rightPaste.html" />
+    <configuration name="pdf.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/pdf/pdf.html" />
     <list>
-      <item itemvalue="JavaScript Debug.rightPaste.html" />
       <item itemvalue="JavaScript Debug.components.html" />
       <item itemvalue="JavaScript Debug.clock.html" />
       <item itemvalue="JavaScript Debug.gauge.html" />
       <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JavaScript Debug.pdf.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.pdf.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.clock.html" />
         <item itemvalue="JavaScript Debug.gauge.html" />
         <item itemvalue="JavaScript Debug.components.html" />
-        <item itemvalue="JavaScript Debug.rightPaste.html" />
       </list>
     </recent_temporary>
   </component>
@@ -297,12 +297,12 @@
       <workItem from="1569057838865" duration="5711000" />
       <workItem from="1569204778688" duration="6664000" />
       <workItem from="1569246084577" duration="813000" />
-      <workItem from="1569387917187" duration="1460000" />
+      <workItem from="1569387917187" duration="1700000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57324000" />
+    <option name="totallyTimeSpent" value="57564000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -670,8 +670,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pdf/pdf.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
