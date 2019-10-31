@@ -2,6 +2,416 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be24ca39-6563-4b69-9ece-d00d69e4aff8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/jianrong/html/h2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jianrong/html/textArea.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/delNull.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/build/pdf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/build/pdf.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/build/pdf.worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/build/pdf.worker.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/78-EUC-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/78-EUC-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/78-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/78-RKSJ-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/78-RKSJ-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/78-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/78ms-RKSJ-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/78ms-RKSJ-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/83pv-RKSJ-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/90ms-RKSJ-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/90ms-RKSJ-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/90msp-RKSJ-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/90msp-RKSJ-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/90pv-RKSJ-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/90pv-RKSJ-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Add-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Add-RKSJ-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Add-RKSJ-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Add-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Adobe-CNS1-0.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Adobe-CNS1-1.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Adobe-CNS1-2.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Adobe-CNS1-3.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Adobe-CNS1-4.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Adobe-CNS1-5.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Adobe-CNS1-6.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Adobe-CNS1-UCS2.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Adobe-GB1-0.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Adobe-GB1-1.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Adobe-GB1-2.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Adobe-GB1-3.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Adobe-GB1-4.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Adobe-GB1-5.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Adobe-GB1-UCS2.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Adobe-Japan1-0.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Adobe-Japan1-1.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Adobe-Japan1-2.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Adobe-Japan1-3.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Adobe-Japan1-4.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Adobe-Japan1-5.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Adobe-Japan1-6.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Adobe-Japan1-UCS2.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Adobe-Korea1-0.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Adobe-Korea1-1.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Adobe-Korea1-2.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Adobe-Korea1-UCS2.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/B5-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/B5-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/B5pc-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/B5pc-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/CNS-EUC-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/CNS-EUC-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/CNS1-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/CNS1-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/CNS2-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/CNS2-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/ETHK-B5-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/ETHK-B5-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/ETen-B5-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/ETen-B5-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/ETenms-B5-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/ETenms-B5-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/EUC-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/EUC-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Ext-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Ext-RKSJ-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Ext-RKSJ-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Ext-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/GB-EUC-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/GB-EUC-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/GB-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/GB-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/GBK-EUC-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/GBK-EUC-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/GBK2K-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/GBK2K-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/GBKp-EUC-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/GBKp-EUC-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/GBT-EUC-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/GBT-EUC-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/GBT-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/GBT-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/GBTpc-EUC-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/GBTpc-EUC-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/GBpc-EUC-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/GBpc-EUC-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/HKdla-B5-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/HKdla-B5-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/HKdlb-B5-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/HKdlb-B5-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/HKgccs-B5-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/HKgccs-B5-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/HKm314-B5-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/HKm314-B5-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/HKm471-B5-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/HKm471-B5-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/HKscs-B5-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/HKscs-B5-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Hankaku.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Hiragana.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/KSC-EUC-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/KSC-EUC-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/KSC-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/KSC-Johab-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/KSC-Johab-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/KSC-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/KSCms-UHC-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/KSCms-UHC-HW-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/KSCms-UHC-HW-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/KSCms-UHC-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/KSCpc-EUC-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/KSCpc-EUC-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Katakana.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/NWP-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/NWP-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/RKSJ-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/RKSJ-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/Roman.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniCNS-UCS2-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniCNS-UCS2-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniCNS-UTF16-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniCNS-UTF16-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniCNS-UTF32-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniCNS-UTF32-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniCNS-UTF8-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniCNS-UTF8-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniGB-UCS2-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniGB-UCS2-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniGB-UTF16-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniGB-UTF16-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniGB-UTF32-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniGB-UTF32-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniGB-UTF8-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniGB-UTF8-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniJIS-UCS2-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniJIS-UCS2-HW-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniJIS-UCS2-HW-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniJIS-UCS2-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniJIS-UTF16-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniJIS-UTF16-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniJIS-UTF32-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniJIS-UTF32-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniJIS-UTF8-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniJIS-UTF8-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniJIS2004-UTF16-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniJIS2004-UTF16-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniJIS2004-UTF32-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniJIS2004-UTF32-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniJIS2004-UTF8-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniJIS2004-UTF8-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniJISPro-UCS2-HW-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniJISPro-UCS2-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniJISPro-UTF8-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniJISX0213-UTF32-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniJISX0213-UTF32-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniJISX02132004-UTF32-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniJISX02132004-UTF32-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniKS-UCS2-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniKS-UCS2-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniKS-UTF16-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniKS-UTF16-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniKS-UTF32-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniKS-UTF32-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniKS-UTF8-H.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/UniKS-UTF8-V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/V.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/cmaps/WP-Symbol.bcmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/compressed.tracemonkey-pldi-09.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/debugger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/annotation-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/annotation-comment.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/annotation-help.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/annotation-insert.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/annotation-key.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/annotation-newparagraph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/annotation-noicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/annotation-note.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/annotation-paragraph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/findbarButton-next-rtl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/findbarButton-next-rtl@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/findbarButton-next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/findbarButton-next@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/findbarButton-previous-rtl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/findbarButton-previous-rtl@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/findbarButton-previous.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/findbarButton-previous@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/grab.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/grabbing.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/loading-icon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/loading-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/loading-small@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/secondaryToolbarButton-documentProperties.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/secondaryToolbarButton-documentProperties@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/secondaryToolbarButton-firstPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/secondaryToolbarButton-firstPage@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/secondaryToolbarButton-handTool.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/secondaryToolbarButton-handTool@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/secondaryToolbarButton-lastPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/secondaryToolbarButton-lastPage@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/secondaryToolbarButton-rotateCcw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/secondaryToolbarButton-rotateCcw@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/secondaryToolbarButton-rotateCw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/secondaryToolbarButton-rotateCw@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/secondaryToolbarButton-scrollHorizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/secondaryToolbarButton-scrollHorizontal@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/secondaryToolbarButton-scrollVertical.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/secondaryToolbarButton-scrollVertical@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/secondaryToolbarButton-scrollWrapped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/secondaryToolbarButton-scrollWrapped@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/secondaryToolbarButton-selectTool.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/secondaryToolbarButton-selectTool@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/secondaryToolbarButton-spreadEven.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/secondaryToolbarButton-spreadEven@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/secondaryToolbarButton-spreadNone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/secondaryToolbarButton-spreadNone@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/secondaryToolbarButton-spreadOdd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/secondaryToolbarButton-spreadOdd@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/texture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-bookmark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-bookmark@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-download@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-menuArrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-menuArrows@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-openFile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-openFile@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-pageDown-rtl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-pageDown-rtl@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-pageDown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-pageDown@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-pageUp-rtl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-pageUp-rtl@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-pageUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-pageUp@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-presentationMode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-presentationMode@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-print.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-print@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-search@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-secondaryToolbarToggle-rtl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-secondaryToolbarToggle-rtl@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-secondaryToolbarToggle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-secondaryToolbarToggle@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-sidebarToggle-rtl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-sidebarToggle-rtl@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-sidebarToggle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-sidebarToggle@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-viewAttachments.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-viewAttachments@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-viewOutline-rtl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-viewOutline-rtl@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-viewOutline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-viewOutline@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-viewThumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-viewThumbnail@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-zoomIn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-zoomIn@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-zoomOut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/toolbarButton-zoomOut@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/treeitem-collapsed-rtl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/treeitem-collapsed-rtl@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/treeitem-collapsed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/treeitem-collapsed@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/treeitem-expanded.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/images/treeitem-expanded@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/ach/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/af/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/ak/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/an/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/ar/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/as/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/ast/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/az/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/be/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/bg/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/bn-BD/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/bn-IN/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/br/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/brx/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/bs/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/ca/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/cak/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/crh/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/cs/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/csb/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/cy/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/da/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/de/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/el/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/en-CA/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/en-GB/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/en-US/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/en-ZA/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/eo/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/es-AR/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/es-CL/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/es-ES/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/es-MX/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/et/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/eu/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/fa/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/ff/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/fi/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/fr/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/fy-NL/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/ga-IE/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/gd/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/gl/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/gn/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/gu-IN/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/he/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/hi-IN/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/hr/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/hsb/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/hto/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/hu/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/hy-AM/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/ia/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/id/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/is/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/it/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/ja/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/ka/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/kab/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/kk/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/km/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/kn/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/ko/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/kok/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/ks/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/ku/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/lg/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/lij/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/lo/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/locale.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/lt/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/ltg/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/lv/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/mai/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/meh/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/mk/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/ml/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/mn/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/mr/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/ms/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/my/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/nb-NO/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/ne-NP/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/nl/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/nn-NO/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/nso/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/oc/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/or/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/pa-IN/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/pl/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/pt-BR/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/pt-PT/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/rm/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/ro/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/ru/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/rw/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/sah/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/sat/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/si/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/sk/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/sl/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/son/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/sq/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/sr/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/sv-SE/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/sw/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/ta-LK/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/ta/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/te/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/th/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/tl/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/tn/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/tr/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/tsz/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/uk/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/ur/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/uz/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/vi/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/wo/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/xh/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/zam/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/zh-CN/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/zh-TW/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/locale/zu/viewer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/viewer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/viewer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/viewer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/pdfJs/web/viewer.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/props/Array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/props/Number.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/props/String.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reg/reg12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pdf/pdf.html" beforeDir="false" afterPath="$PROJECT_DIR$/pdf/pdf.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,56 +426,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="rightPaste.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/event/rightPaste.html">
+      <file leaf-file-name="delNull.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/json/delNull.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+            <state relative-caret-position="270">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="components.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/components.html">
+      <file leaf-file-name="h2.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jianrong/html/h2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clock.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clock/clock.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3165">
-              <caret line="211" column="23" lean-forward="true" selection-start-line="211" selection-end-line="212" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/getBoundingClientRect/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pdf.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pdf/pdf.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="92" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="92" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gauge.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gauge/gauge.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2460">
-              <caret line="164" column="47" lean-forward="true" selection-end-line="314" selection-end-column="7" />
+            <state relative-caret-position="225">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -108,6 +482,7 @@
       <find>beishu</find>
       <find>innerScale</find>
       <find>dotHeight2</find>
+      <find>receiveType</find>
     </findStrings>
     <replaceStrings>
       <replace>toCalculateFuli</replace>
@@ -154,6 +529,14 @@
         <option value="$PROJECT_DIR$/gauge/gauge.html" />
         <option value="$PROJECT_DIR$/getBoundingClientRect/index.html" />
         <option value="$PROJECT_DIR$/pdf/pdf.html" />
+        <option value="$PROJECT_DIR$/reg/reg12.html" />
+        <option value="$PROJECT_DIR$/props/String.html" />
+        <option value="$PROJECT_DIR$/props/Number.html" />
+        <option value="$PROJECT_DIR$/props/Array.html" />
+        <option value="$PROJECT_DIR$/兼容问题/html/textArea.html" />
+        <option value="$PROJECT_DIR$/json/delNull.html" />
+        <option value="$PROJECT_DIR$/兼容问题/html/h2.html" />
+        <option value="$PROJECT_DIR$/jianrong/html/h2.html" />
       </list>
     </option>
   </component>
@@ -177,9 +560,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -199,7 +583,13 @@
             <path>
               <item name="javascript_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="javascript_practice" type="462c0819:PsiDirectoryNode" />
-              <item name="pdf" type="462c0819:PsiDirectoryNode" />
+              <item name="jianrong" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javascript_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javascript_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="jianrong" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -225,6 +615,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pdf/pdfJs" />
       <recent name="$PROJECT_DIR$/pdf" />
       <recent name="$PROJECT_DIR$/san" />
       <recent name="$PROJECT_DIR$/static/js" />
@@ -246,26 +637,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.pdf.html">
-    <configuration name="clock.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/clock/clock.html" />
-    <configuration name="components.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/vue/components.html" />
-    <configuration name="gauge.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/gauge/gauge.html" />
-    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/getBoundingClientRect/index.html" />
-    <configuration name="pdf.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/pdf/pdf.html" />
+  <component name="RunManager" selected="JavaScript Debug.h2.html">
+    <configuration name="Array.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/props/Array.html" />
+    <configuration name="Number.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/props/Number.html" />
+    <configuration name="String.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/props/String.html" />
+    <configuration name="h2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/兼容问题/html/h2.html" />
+    <configuration name="reg12.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript_practice/reg/reg12.html" />
     <list>
-      <item itemvalue="JavaScript Debug.components.html" />
-      <item itemvalue="JavaScript Debug.clock.html" />
-      <item itemvalue="JavaScript Debug.gauge.html" />
-      <item itemvalue="JavaScript Debug.index.html" />
-      <item itemvalue="JavaScript Debug.pdf.html" />
+      <item itemvalue="JavaScript Debug.reg12.html" />
+      <item itemvalue="JavaScript Debug.String.html" />
+      <item itemvalue="JavaScript Debug.Number.html" />
+      <item itemvalue="JavaScript Debug.Array.html" />
+      <item itemvalue="JavaScript Debug.h2.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.pdf.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.clock.html" />
-        <item itemvalue="JavaScript Debug.gauge.html" />
-        <item itemvalue="JavaScript Debug.components.html" />
+        <item itemvalue="JavaScript Debug.h2.html" />
+        <item itemvalue="JavaScript Debug.Array.html" />
+        <item itemvalue="JavaScript Debug.Number.html" />
+        <item itemvalue="JavaScript Debug.String.html" />
+        <item itemvalue="JavaScript Debug.reg12.html" />
       </list>
     </recent_temporary>
   </component>
@@ -297,18 +688,30 @@
       <workItem from="1569057838865" duration="5711000" />
       <workItem from="1569204778688" duration="6664000" />
       <workItem from="1569246084577" duration="813000" />
-      <workItem from="1569387917187" duration="2421000" />
+      <workItem from="1569387917187" duration="5991000" />
+      <workItem from="1570784863974" duration="1909000" />
+      <workItem from="1570843233224" duration="387000" />
+      <workItem from="1571016301433" duration="243000" />
+      <workItem from="1571102938585" duration="2276000" />
+      <workItem from="1571189411006" duration="522000" />
+      <workItem from="1571276146634" duration="384000" />
+      <workItem from="1571362890339" duration="2686000" />
+      <workItem from="1571471715153" duration="242000" />
+      <workItem from="1571621972581" duration="281000" />
+      <workItem from="1571886328682" duration="392000" />
+      <workItem from="1571972812445" duration="24000" />
+      <workItem from="1572492195495" duration="953000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58285000" />
+    <option name="totallyTimeSpent" value="72154000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23930079" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23086196" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -334,62 +737,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/money/compoundInterest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="89" column="22" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event/event-preventDefault.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event/srcElement.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="13" selection-start-line="7" selection-start-column="4" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2265">
-          <caret line="151" column="25" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/money/js/calculate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/money/compoundInterest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event/event-preventDefault.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event/srcElement.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="13" selection-start-line="7" selection-start-column="4" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/money/compoundInterest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -525,13 +872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scene/debounceAndThrottle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="64" selection-start-line="31" selection-start-column="4" selection-end-line="50" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/input.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -650,28 +990,91 @@
     <entry file="file://$PROJECT_DIR$/gauge/gauge.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2460">
-          <caret line="164" column="47" lean-forward="true" selection-end-line="314" selection-end-column="7" />
+          <caret line="164" column="47" selection-end-line="314" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clock/clock.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3165">
-          <caret line="211" column="23" lean-forward="true" selection-start-line="211" selection-end-line="212" />
+          <caret line="211" column="23" selection-start-line="211" selection-end-line="212" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/getBoundingClientRect/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdf/pdfJs/web/viewer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4769">
+          <caret selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pdf/pdf.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reg/reg12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23400">
+          <caret line="1560" column="31" selection-start-line="1560" selection-start-column="12" selection-end-line="1560" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/props/String.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="18" selection-end-line="48" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/props/Number.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/props/Array.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianrong/html/textArea.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="92" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="92" />
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scene/debounceAndThrottle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/delNull.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianrong/html/h2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>

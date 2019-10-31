@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    Array.prototype.sum = function () {
+        return eval(this.join('+'))
+    }
+
+    var arr1 = [1,2,3,4,5]
+    var arr2 = ['1','2','3',4,5]
+    console.log(arr1.sum())
+    console.log(arr2.sum())
+</script>
+</body>
+</html>
