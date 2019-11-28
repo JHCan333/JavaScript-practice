@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+.bw_download_box {
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+.bw_download_top{
+    position:absolute;
+    top:0.8rem;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bw_download_logo{
+    width:3.2rem;
+    height:3.2rem;
+    background: url("../images/logo_icon@3x.png") no-repeat  center center;
+    background-size: cover;
+}
+
+.bw_download_title {
+    margin-top: 0.4rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.64rem;
+    color: #001F33;
+    letter-spacing: 0.128rem;
+    text-align: center;
+}
+
+.bw_download_middle{
+    height:0.8rem;
+    width:100%;
+    padding:0 0.32rem;
+    position: absolute;
+    top:5.7rem;
+}
+
+.bw_download_middle_bg {
+    height:100%;
+    background: url("../images/bg@3x.png") no-repeat  center center;
+    background-size: cover;
+}
+
+.bw_download_middle_title {
+    padding-top:0.1rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.32rem;
+    color: #FFFFFF;
+    letter-spacing: 0.016rem;
+    text-align: center;
+}
+
+.bw_download_bottom {
+    position: absolute;
+    top:7.15rem;
+    width:100%;
+    height:2.4rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bw_download_btn {
+    overflow: hidden;
+    width:4rem;
+    height:1rem;
+    background: #000;
+    box-shadow: 0 0.08rem 0.24rem 0 rgba(0,0,0,0.12);
+
+    font-family: PingFangSC-Regular;
+    font-size: 0.3rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.bw_download_icon {
+    height:100%;
+    margin-top: 0.18rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+.bw_download_text {
+    display: inline-block;
+    margin-left:0.4rem;
+}
+
+.bw_download_ios_icon {
+    width:0.54rem;
+    height:0.64rem;
+}
+
+.bw_download_android_icon {
+    width:0.54rem;
+    height:0.64rem;
+}
+
+
+.bw_download_footer{
+    width:100%;
+    position:absolute;
+    bottom:0.16rem;
+}
+
+.bw_download_footer div {
+    font-family: PingFangSC-Regular;
+    font-size: 0.24rem;
+    color: #B8C4CC;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.bw_overlay {
+    display: none;
+    position:absolute;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.40);
+}
+
+.bw_overlay_tip {
+    width:4.4rem;
+    height:2.7rem;
+    background: rgba(0,0,0,0.80);
+    position: absolute;
+    top:1.02rem;
+    right:0.32rem;
+}
+
+.bw_overlay_tip_text {
+    font-family: PingFangSC-Regular;
+    font-size: 0.3rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    padding-top: 0.24rem;
+    padding-left: 0.32rem;
+}
+
+.bw_overlay_tip_icon_area {
+    padding-left:0.8rem;
+}
+
+.bw_overlay_tip_icon {
+    width:0.64rem;
+    height:0.64rem;
+    display: inline-block;
+}
+
+.bw_overlay_tip_icon_ios {
+    background: url("../images/ios_brower@3x.png") no-repeat  center center;
+    background-size: cover;
+}
+
+.bw_overlay_tip_icon_android {
+    background: url("../images/android_brower@3x.png") no-repeat  center center;
+    background-size: cover;
+}
+
+.bw_overlay_arrow {
+    width:0.26rem;
+    height:0.7rem;
+    top:0.24rem;
+    right:0.55rem;
+    position:absolute;
+    background: url("../images/arrow@3x.png") no-repeat  center center;
+    background-size: cover;
+}
