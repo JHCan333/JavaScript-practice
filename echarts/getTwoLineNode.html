@@ -45,9 +45,21 @@
       return `<span style='width:${radius * 2}px;height:${radius * 2}px;display:inline-block;border-radius: ${radius}px;background:${color};margin:0px 3px;'></span>`
     }
 
-    // 获取两线所有交点，并且
-    function getIntersectionPoint({ line1, line2, date } = {}) {
+    // 判断两条线段是否有交点, a1、b1 为两条线在 x1 处的值；a2、b2 为两条线在 x2 处的值；
+    function ifHaveIntersectionPoint(a1, b1, a2, b2) {
+      return (+a1 > +b1) != (+a2 > +b2)
+    }
 
+    // 当不是最后一个点，且有交点时，执行后续的计算
+    function ifCalculatePoint(idx, lth, { a1, b1, a2, b2 } = {}) {
+      return idx !== (lth - 1) && ifHaveIntersectionPoint(a1, b1, a2, b2)
+    }
+
+    // 获取两线所有交点
+    function getIntersectionPoint({ line1, line2, date } = {}) {
+      date.map(function (seg, idx) {
+
+      })
     }
 
     // 基于准备好的dom，初始化一个 echarts 实例。
