@@ -40,6 +40,16 @@
       }
     }
 
+    // 获取tooltip的dot,radius 为圆点半径，color 为圆点颜色
+    function getTipDot({ radius = 5, color = "red" } = {}) {
+      return `<span style='width:${radius * 2}px;height:${radius * 2}px;display:inline-block;border-radius: ${radius}px;background:${color};margin:0px 3px;'></span>`
+    }
+
+    // 获取两线所有交点，并且
+    function getIntersectionPoint({ line1, line2, date } = {}) {
+
+    }
+
     // 基于准备好的dom，初始化一个 echarts 实例。
     var myChart = echarts.init(document.getElementById('chart'));
 
@@ -47,17 +57,40 @@
     var option = {
       // 标题
       title: {
-        text: "初始绘制折线图"
+        text: "添加tooltip的dot"
       },
-      // 提示框组件，鼠标放置上去后，会展示所在位置信息
-      tooltip: {},
+      // 提示框组件，鼠标放置上去后，会展示 鼠标 所在位置信息
+      tooltip: {
+        trigger: 'axis', // 设置提示框为：坐标轴触发。此项主要用于柱图、折线图的配置。
+        // params 为一个数组，数组的每个元素 包含了 该折线图的点 所有的参数信息
+        // 比如 value(数值)、seriesName（系列名）、dataIndex（数据项的序号）、color(系列颜色)
+        formatter: function (params) {
+          let dateIndex = 0; // 当前指示点的 日期序号
+          let tipList = params.map((seg) => {
+            let { value, seriesName, dataIndex, color } = seg;
+            dateIndex = dataIndex;
+            return `${getTipDot({ color })}${seriesName}：${value}` // 添加对于 dot 的配置
+          })
+          tipList.unshift(`${chartData.date[dateIndex]}`)
+          return tipList.join('<br/>')
+        }
+      },
       // 图例组件，与 series 中的 name 对应，用于表示不同系列的标记、颜色和名字。也可以通过点击图例控制哪些系列不显示。
       legend: {
         data: ['line1', 'line2']
       },
       // x 轴的配置，默认类型为 type="category" 类目轴。
       xAxis: {
-        data: chartData.date // 设置 x 轴的数据
+        // 设置 x 轴的数据, 使用 日期 在数据中的 序列号 来表示 横坐标数值。
+        data: chartData.date.map((seg, idx) => {
+          return idx
+        }),
+        // 设置 x 轴的 展示标签， 使其根据 当前标签的序列号转换为 日期
+        axisLabel: {
+          formatter: function (params) {
+            return chartData.date[params]
+          }
+        }
       },
       // y 轴的配置，虽然没有写其他配置，但是必须有，否则会报错
       yAxis: {},
