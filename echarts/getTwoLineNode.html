@@ -26,7 +26,7 @@
     };
 
     // 求两条线段交点，a,b 为第一条线段的始末点，c,d 为第二条线段的始末点。x，y 为点的横纵坐标
-    function segmentsIntr(a, b, c, d) {
+    function segmentsIntr({ a, b, c, d } = {}) {
       var denominator = (b.y - a.y) * (d.x - c.x) - (a.x - b.x) * (c.y - d.y)
       var x = ((b.x - a.x) * (d.x - c.x) * (c.y - a.y) +
         (b.y - a.y) * (d.x - c.x) * a.x -
@@ -34,10 +34,7 @@
       var y = -((b.y - a.y) * (d.y - c.y) * (c.x - a.x) +
         (b.x - a.x) * (d.y - c.y) * a.y -
         (d.x - c.x) * (b.y - a.y) * c.y) / denominator
-      return {
-        x: x,
-        y: y
-      }
+      return [x, y]
     }
 
     // 获取tooltip的dot,radius 为圆点半径，color 为圆点颜色
@@ -46,22 +43,53 @@
     }
 
     // 判断两条线段是否有交点, a1、b1 为两条线在 x1 处的值；a2、b2 为两条线在 x2 处的值；
+    // 只要不是一条线段的两个点都高于另一个点就会有交点；
     function ifHaveIntersectionPoint(a1, b1, a2, b2) {
       return (+a1 > +b1) != (+a2 > +b2)
     }
 
-    // 当不是最后一个点，且有交点时，执行后续的计算
-    function ifCalculatePoint(idx, lth, { a1, b1, a2, b2 } = {}) {
+    // 是否执行后续的计算 ？ 不是最后一个点，且有交点时
+    function ifCalculatePoint(idx, lth, [a1, b1, a2, b2] = []) {
       return idx !== (lth - 1) && ifHaveIntersectionPoint(a1, b1, a2, b2)
     }
 
     // 获取两线所有交点
     function getIntersectionPoint({ line1, line2, date } = {}) {
-      date.map(function (seg, idx) {
-
+      // 交点数组
+      var intersectionPointList = []
+      date.map((seg, idx) => {
+        // 分别是两条线在相邻两处的数值，用于通过比较大小，来确定此段内是否有交点
+        var valueGroup = [line1[idx], line2[idx], line1[idx + 1], line2[idx + 1]]
+        if (ifCalculatePoint(idx, date.length, valueGroup)) {
+          var dotGroup = {
+            a: { x: idx, y: line1[idx] },
+            b: { x: idx + 1, y: line1[idx + 1] },
+            c: { x: idx, y: line2[idx] },
+            d: { x: idx + 1, y: line2[idx + 1] }
+          }
+          // 计算交点的位置
+          var intersectionPoint = this.segmentsIntr(dotGroup)
+          intersectionPointList.push(intersectionPoint)
+        }
       })
+      // console.log('intersectionPointList', JSON.stringify(intersectionPointList))
+      // intersectionPointList: [
+      //   { "x": 11.4, "y": 134.4 },
+      //   { "x": 33.5, "y": 106 },
+      //   { "x": 34.666666666666664, "y": 105.33333333333333 },
+      //   { "x": 35.25, "y": 105 },
+      //   { "x": 36.75, "y": 105 },
+      //   { "x": 37.25, "y": 105 },
+      //   { "x": 53.4, "y": 130.4 },
+      //   { "x": 66.2, "y": 112.8 },
+      //   { "x": 68.33333333333333, "y": 110.66666666666667 },
+      //   { "x": 78, "y": 100 },
+      //   { "x": 96, "y": 128 },
+      //   { "x": 117.4, "y": 97.6 },
+      //   { "x": 135.4, "y": 130.4 }
+      // ]
+      return intersectionPointList;
     }
-
     // 基于准备好的dom，初始化一个 echarts 实例。
     var myChart = echarts.init(document.getElementById('chart'));
 
@@ -69,11 +97,12 @@
     var option = {
       // 标题
       title: {
-        text: "添加tooltip的dot"
+        text: "将计算出的交点简单绘制出来"
       },
       // 提示框组件，鼠标放置上去后，会展示 鼠标 所在位置信息
       tooltip: {
-        trigger: 'axis', // 设置提示框为：坐标轴触发。此项主要用于柱图、折线图的配置。
+        // 设置提示框为：坐标轴触发。此项主要用于柱图、折线图的配置。
+        trigger: 'axis',
         // params 为一个数组，数组的每个元素 包含了 该折线图的点 所有的参数信息
         // 比如 value(数值)、seriesName（系列名）、dataIndex（数据项的序号）、color(系列颜色)
         formatter: function (params) {
@@ -92,7 +121,7 @@
         data: ['line1', 'line2']
       },
       // x 轴的配置，默认类型为 type="category" 类目轴。
-      xAxis: {
+      xAxis: [{
         // 设置 x 轴的数据, 使用 日期 在数据中的 序列号 来表示 横坐标数值。
         data: chartData.date.map((seg, idx) => {
           return idx
@@ -103,7 +132,12 @@
             return chartData.date[params]
           }
         }
-      },
+      }, {
+        type: 'value',
+        min: 0,
+        max: chartData.date.length - 1,
+        show: false
+      }],
       // y 轴的配置，虽然没有写其他配置，但是必须有，否则会报错
       yAxis: {},
       // 系列列表，一个系列即可理解为一个图表，通过 type 决定所展示的图表类型。
@@ -115,9 +149,14 @@
         name: 'line2', // 单个图表系列的 name, 和 legend 中的 data 对应
         type: 'line',
         data: chartData.line2
+      }, {
+        name: 'scatter',
+        type: 'scatter',
+        xAxisIndex: 1,
+        data: getIntersectionPoint(chartData)
       }]
     }
-
+    console.log('option', option)
     // 使用数据和配置项展示图表
     myChart.setOption(option)
   </script>
