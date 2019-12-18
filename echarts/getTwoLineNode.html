@@ -117,17 +117,20 @@
         formatter: function (params) {
           let dateIndex = 0; // 当前指示点的 日期序号
           let tipList = params.map((seg) => {
-            let { value, seriesName, dataIndex, color } = seg;
+            let { value, seriesName, dataIndex, color, seriesType } = seg;
             dateIndex = dataIndex;
             return `${getTipDot({ color })}${seriesName}：${value}` // 添加对于 dot 的配置
           })
           tipList.unshift(`${chartData.date[dateIndex]}`)
           return tipList.join('<br/>')
+        },
+        axisPointer:{
+          // type:'none'
         }
       },
       // 图例组件，与 series 中的 name 对应，用于表示不同系列的标记、颜色和名字。也可以通过点击图例控制哪些系列不显示。
       legend: {
-        data: ['line1', 'line2'],
+        data: ['折线1', '折线2'],
         textStyle: {
           color: '#fff'
         },
@@ -185,8 +188,9 @@
         scale: true
       },
       // 系列列表，一个系列即可理解为一个图表，通过 type 决定所展示的图表类型。
-      series: [{
-        name: 'line1', // 单个图表系列的 name, 和 legend 中的 data 对应
+      series: [
+        {
+        name: '折线1', // 单个图表系列的 name, 和 legend 中的 data 对应
         type: 'line',
         symbol: 'none', // 取消折线图上圆点的展示
         smooth: true, // 将折线进行平滑展示
@@ -198,7 +202,7 @@
         },
         data: chartData.line1
       }, {
-        name: 'line2', // 单个图表系列的 name, 和 legend 中的 data 对应
+        name: '折线2', // 单个图表系列的 name, 和 legend 中的 data 对应
         type: 'line',
         symbol: 'none',
         smooth: true,
@@ -209,8 +213,9 @@
           width: 0.7,
         },
         data: chartData.line2
-      }, {
-        name: 'scatter',
+      }, 
+      {
+        name: '交点',
         type: 'scatter',
         xAxisIndex: 1,
         data: getIntersectionPoint(chartData).map((seg) => {
